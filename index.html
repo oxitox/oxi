@@ -74,8 +74,34 @@
 	}
 
 	.link
+	{	
+		position: relative;
+		text-decoration: none; 
+		border: 0 solid red; 
+	}
+	
+	.link:after,
+	.link:before
 	{
-	    text-decoration: none; 
+		position: absolute;
+		content: "";
+		height: 30px;
+		width: 30px; 
+	}
+	.link:after
+	{
+		top: 0;
+		left: 0;
+		border-right-width: 1px;
+		border-bottom-width: 1px;
+	}
+	
+	.link:before
+	{
+		bottom: 0; 
+		right: 0; 
+		border-top-width: 1px;
+		border-left-width: 1px;
 	}
 	
 	.logo
