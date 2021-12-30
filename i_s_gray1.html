@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OXIMA 2</title>
+	<link rel="stylesheet" href="css/sanitize.css">
+</head>
+<body class="body">
+ 
+	<header class="header">
+		<h1 class="logo">
+			OXIMA
+		</h1>
+
+		<h2 class="slogan">
+			with Trust, wherever we step
+		</h2>
+	</header>
+	
+	<footer class="footer">
+		<div class="footer__inner">
+			OXIMA Sp. z O.O.<br>
+			Plac Bankowy 2,
+			00-095 Warszawa,
+			POLSKA<br>
+			<span class="mini">KRS#0000820607</span><BR>
+			oxima@posteo.net
+		</div> 
+	</footer>
+
+</body>
+
+
+<style>
+
+	@font-face
+	{
+		font-family: new-academy;
+		src: url('fonts/new-academy.new-academy.ttf') format('truetype');
+	}
+
+	@font-face
+	{
+		font-family: mitr;
+		src: url('fonts/mitr.extralight.ttf') format('truetype');
+	}
+
+	@font-face
+	{
+		font-family: saira;
+		src: url('fonts/saira.thin.ttf') format('truetype');
+	}
+
+	.body
+	{	
+		background: url(sea_gray-big.jpg);
+		background-size: 117% auto;
+		background-repeat: no-repeat;
+		background-position: 37% 0%;
+		min-height: 100vh;
+		text-align: center;
+		display: flex;
+		flex-flow: column;
+		justify-content: space-between;
+	}
+
+	.header 
+	{
+		margin-top: 3vh;
+	}
+
+	.logo
+	{	
+		font-family: new-academy;
+		font-size: 86px;
+		line-height: 87px;
+		letter-spacing: 15px;
+		padding-left: 15px;
+		color: hsla(360, 100%, 100%, 1);
+		margin: 0;
+	}
+
+	.slogan
+	{	
+		margin: 0;
+		margin-top: 7px;
+		margin-bottom: 25px;
+		font-family: mitr;
+		font-size: 13px;
+		line-height: 16px;
+		letter-spacing: 2px;	
+		color: hsla(360, 100%, 100%, 0.96);
+	}
+
+	.footer 
+	{	
+		font-size:  11.5px;
+		font-family: saira;
+		letter-spacing: 1px;
+		line-height: 15px;
+		color: hsla(205, 40%, 88%, 1);
+		margin-bottom: 3vh;
+	}
+
+	.mini
+	{
+		font-size: 11px;
+	}
+
+	@media (max-width: 500px)
+	{
+		.header 
+		{
+			margin-top: 2vh;
+		}
+		.body
+		{
+			background-image: url(sea_gray.jpg);
+			background-size: auto 115%;
+			background-repeat: no-repeat;
+			background-position: 58% 0%;
+			min-height: 100vh;
+		}
+		.logo
+		{	
+			font-size: 70px;
+			line-height: 77px; 
+			letter-spacing: 13px;
+			color: hsla(360, 100%, 100%, 0.97);
+		}
+		.slogan
+		{	
+			font-size: 11px;
+			line-height: 15px; 
+			letter-spacing: 0.7px;
+			color: hsla(202, 22%, 94%, 1);
+			margin-top: 8px;
+			margin-bottom: 20px;
+		}
+		.footer
+		{	
+			font-size:  10px;
+			font-family: saira;
+			color: hsla(205, 40%, 88%, 1);
+			letter-spacing: 1px;
+			line-height: 13px;
+			margin-bottom: 2.6vh;
+		}
+		.mini
+		{
+			font-size: 9.5px;
+		}
+	}
+
+
+</style>
+
+</html>
+
